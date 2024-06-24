@@ -4,7 +4,7 @@ from openai import OpenAI
 from utilities.icon import page_icon
 
 st.set_page_config(
-    page_title="Chat playground",
+    page_title="Chat sandbox",
     page_icon="💬",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -30,7 +30,7 @@ def main():
     """
 
     page_icon("💬")
-    st.subheader("Ollama Playground", divider="red", anchor=False)
+    st.subheader("LLM Sandbox", divider="red", anchor=False)
 
     client = OpenAI(
         base_url="http://localhost:11434/v1",
