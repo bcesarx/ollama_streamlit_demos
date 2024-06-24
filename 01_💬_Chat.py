@@ -42,7 +42,7 @@ def main():
 
     if available_models:
         selected_model = st.selectbox(
-            "Pick a model available locally on your system ↓", available_models
+            "Selecione um modelo disponível localmente ↓", available_models
         )
 
     else:
